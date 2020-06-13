@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mathe/Info 2020</title>
+  <link rel="stylesheet" href="nav.css">
+  <script src="nav.js" type="text/javascript"></script>
+
+  <style>
+    body, html {
+      background-color: #171717;
+      text-color: white;
+      font-family: "Lato", sans-serif;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 50px
+    }
+    p, a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Startseite</a>
+    <a href="06_02_2020.html">06.02.2020</a>
+    <a href="#">12/13.02.2020</a>
+    <a href="#">19/20.02.2020</a>
+    <a href="Clock 3.html">UHR</a>
+  </div>
+
+  <span style="color: white; font-size:60px; cursor:pointer" onclick="openNav()">&#9776;</span>
+
+  <div id="main">
+    <button onclick="SnackbarOpen()">Show Snackbar</button>
+
+    <div class="snackbar" id="snackbar">Test Message</div>
+  </div>
+</body>
+</html>
